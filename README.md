@@ -6,9 +6,12 @@ Single-page HTML training app for **MSHA Part 48** new miner classroom training 
 - **Clover Bottom Quarry**
 - **Dix River Stone**
 
+**Repo:** https://github.com/Taylor12KY/MSHAtraining  
+Grok (xAI) has write access and can update files in this repo from chat.
+
 ## Live deploy
 
-The production copy is often hosted on **Netlify** as `index.html`. After edits, replace `index.html` in the Netlify deploy folder (or enable GitHub Pages / Netlify continuous deploy from this repo).
+The production copy is often hosted on **Netlify** as `index.html`. After edits here, redeploy to Netlify (or enable GitHub Pages / Netlify continuous deploy from this repo).
 
 ## Features
 
@@ -42,7 +45,7 @@ Other accounts can help build this:
 
 1. Fork or request collaborator access on this repo.
 2. Create a branch for your change (e.g. `site-content-clover-bottom`).
-3. Edit `index.html` (site orientation lives in the `SITE_CONTENT` object near the top of the script section).
+3. Edit `index.html` (site orientation lives in the `SITE_CONTENT` object).
 4. Open a pull request with a short description of what changed.
 5. After merge, redeploy `index.html` to Netlify (or connected host).
 
@@ -56,7 +59,7 @@ Other accounts can help build this:
 
 ## Notes
 
-- Progress is stored in the trainee’s browser (`localStorage` key `msha48_32hr_v2`).
+- Progress is stored in the trainee's browser (`localStorage` key `msha48_32hr_v2`).
 - This app supports classroom delivery; it does not replace required hands-on training (e.g. self-rescuer donning) or company written plans.
 - Keep site-specific procedures aligned with current ground control, escape, and fire plans.
 
