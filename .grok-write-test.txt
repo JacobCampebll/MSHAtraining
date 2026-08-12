@@ -1,0 +1,2 @@
+Grok write-access test succeeded.
+Safe to delete this file.
